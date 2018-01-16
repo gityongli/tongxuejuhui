@@ -318,10 +318,13 @@ body {
 }
 .swiper-slide.two .bottom .p1{
     position: absolute;
-    left:4%;
+    left:7%;
     top:-30%;
     z-index: 2;
     transform: rotate(2deg);
+}
+.swiper-slide.two .bottom .p2{
+    margin-top: 0;
 }
 .swiper-slide.two .bottom .img1{
     width: 30%;
@@ -551,18 +554,26 @@ body {
     left:0;
 }
 .swiper-slide.four .center .img1{
-    width: 70%;
-    height: 100%;
+    width: 30%;
+    height:60%;
     position: absolute;
-    left: 12%;
+    left: 10%;
     top: 0;
+    border: 10px solid #fff;
+}
+.swiper-slide.four .center .img2{
+    width: 30%;
+    height:60%;
+    position: absolute;
+    right: 10%;
+    top: 30%;
     border: 10px solid #fff;
 }
 .swiper-slide.four .bottom{
     width: 100%;
     height: 25%;
     position: absolute;
-    top:75%;
+    top:72%;
     left:0;
 }
 .swiper-slide.four .bottom p{
@@ -667,25 +678,32 @@ body {
 }
 .swiper-slide.five .center{
     width: 100%;
-    height:48%;
+    height:40%;
     position: absolute;
     top:30%;
     left:0;
 }
 .swiper-slide.five .center .img1{
-    width: 70%;
-    height: 100%;
+    width: 30%;
+    height:60%;
     position: absolute;
-    left: 12%;
+    left: 10%;
     top: 0;
     border: 10px solid #fff;
-
+}
+.swiper-slide.five .center .img2{
+    width: 30%;
+    height:60%;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    border: 10px solid #fff;
 }
 .swiper-slide.five .bottom{
     width: 100%;
-    height: 20%;
+    height: 25%;
     position: absolute;
-    top:80%;
+    top:75%;
     left:0;
 }
 .swiper-slide.five .bottom p{
@@ -896,18 +914,18 @@ body {
     left:0;
 }
 .swiper-slide.serve .center .img1{
-    width: 70%;
-    height: 45%;
+    width: 60%;
+    height: 40%;
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 0;
     border: 10px solid #fff;
 }
 .swiper-slide.serve .center .img2{
-    width: 70%;
-    height: 45%;
+    width: 60%;
+    height: 40%;
     position: absolute;
-    right: 0;
+    right: 10%;
     top: 50%;
     border: 10px solid #fff;
 }
@@ -1000,18 +1018,18 @@ body {
     left:0;
 }
 .swiper-slide.eight .center .img1{
-    width: 70%;
-    height: 45%;
+    width: 60%;
+    height: 40%;
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 0;
     border: 10px solid #fff;
 }
 .swiper-slide.eight .center .img2{
-    width: 70%;
-    height: 45%;
+    width: 60%;
+    height: 40%;
     position: absolute;
-    right: 0;
+    right: 10%;
     top: 50%;
     border: 10px solid #fff;
 }
@@ -1104,18 +1122,18 @@ body {
     left:0;
 }
 .swiper-slide.nine .center .img1{
-    width: 70%;
-    height: 45%;
+    width: 60%;
+    height: 40%;
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 0;
     border: 10px solid #fff;
 }
 .swiper-slide.nine .center .img2{
-    width: 70%;
-    height: 45%;
+    width: 60%;
+    height: 40%;
     position: absolute;
-    right: 0;
+    right: 10%;
     top: 50%;
     border: 10px solid #fff;
 }
