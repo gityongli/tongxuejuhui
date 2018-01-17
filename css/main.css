@@ -256,7 +256,7 @@ body {
     left: 16%;
 }
 .swiper-slide.two .top p{
-    font-size:4vw;
+    font-size:5vw;
     color:#604c45;
 }
 .swiper-slide.two .top .p1{
@@ -302,7 +302,7 @@ body {
     position: absolute;
     top: 8%;
     left: 8%;
-    background: red;
+
 }
 .swiper-slide.two .bottom{
     width: 100%;
@@ -397,7 +397,7 @@ body {
     left: 16%;
 }
 .swiper-slide.three .top p{
-    font-size:4vw;
+    font-size:5vw;
     color:#604c45;
 }
 .swiper-slide.three .top .p1{
@@ -440,11 +440,11 @@ body {
     width: 100%;
     height: 25%;
     position: absolute;
-    top:75%;
+    top:72%;
     left:0;
 }
 .swiper-slide.three .bottom p{
-    font-size:3vw;
+    font-size:4vw;
     color:#604c45;
     line-height: 100%;
 }
@@ -523,7 +523,7 @@ body {
     left: 16%;
 }
 .swiper-slide.four .top p{
-    font-size:4vw;
+    font-size:5vw;
     color:#604c45;
 }
 .swiper-slide.four .top .p1{
@@ -571,13 +571,13 @@ body {
 }
 .swiper-slide.four .bottom{
     width: 100%;
-    height: 25%;
+    height: 30%;
     position: absolute;
-    top:72%;
+    top:70%;
     left:0;
 }
 .swiper-slide.four .bottom p{
-    font-size:3vw;
+    font-size:4vw;
     color:#604c45;
     line-height: 100%;
 }
@@ -585,7 +585,7 @@ body {
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 0;
+    top:-30%;
     left: -30px;
 }
 .swiper-slide.four .bottom .img2{
@@ -653,7 +653,7 @@ body {
     left: 16%;
 }
 .swiper-slide.five .top p{
-    font-size:4vw;
+    font-size:5vw;
     color:#604c45;
 }
 .swiper-slide.five .top .p1{
@@ -703,11 +703,11 @@ body {
     width: 100%;
     height: 25%;
     position: absolute;
-    top:75%;
+    top:72%;
     left:0;
 }
 .swiper-slide.five .bottom p{
-    font-size:3vw;
+    font-size:4vw;
     color:#604c45;
     line-height: 100%;
 }
@@ -794,34 +794,52 @@ body {
 
 .swiper-slide.six .center{
     width: 100%;
-    height:50%;
+    height:70%;
     position: absolute;
     top:30%;
     left:0;
 }
 .swiper-slide.six .center .img1{
-    width: 70%;
-    height:100%;
+    width: 32%;
+    height:35%;
+    position: absolute;
+    left:10%;
+    top: 0;
+    border: 10px solid #fff;
+}
+.swiper-slide.six .center .img2{
+    width: 32%;
+    height:35%;
+    position: absolute;
+    right:10%;
+    top: 0%;
+    border: 10px solid #fff;
+}
+.swiper-slide.six .center .img3{
+    width: 32%;
+    height:35%;
     position: absolute;
     left: 10%;
-    top: 0;
+    top:45%;
+    border: 10px solid #fff;
+}
+.swiper-slide.six .center .img4{
+    width: 32%;
+    height: 35%;
+    position: absolute;
+    right: 10%;
+    top:45%;
     border: 10px solid #fff;
 }
 .swiper-slide.six .bottom{
     width: 100%;
-    height: 20%;
+    height: 10%;
     position: absolute;
-    top:80%;
-}
-.swiper-slide.six .bottom{
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    top:83%;
+    top:90%;
     left:0;
 }
 .swiper-slide.six .bottom p{
-    font-size:3vw;
+    font-size:4vw;
     color:#604c45;
     line-height: 100%;
 }
@@ -914,19 +932,27 @@ body {
     left:0;
 }
 .swiper-slide.serve .center .img1{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height: 25%;
     position: absolute;
-    left: 10%;
+    left:10%;
     top: 0;
     border: 10px solid #fff;
 }
 .swiper-slide.serve .center .img2{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height:25%;
+    position: absolute;
+    left:20%;
+    top: 32%;
+    border: 10px solid #fff;
+}
+.swiper-slide.serve .center .img3{
+    width: 50%;
+    height: 25%;
     position: absolute;
     right: 10%;
-    top: 50%;
+    top:64%;
     border: 10px solid #fff;
 }
 
@@ -1018,19 +1044,27 @@ body {
     left:0;
 }
 .swiper-slide.eight .center .img1{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height: 25%;
     position: absolute;
-    left: 10%;
+    left:10%;
     top: 0;
     border: 10px solid #fff;
 }
 .swiper-slide.eight .center .img2{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height:25%;
+    position: absolute;
+    left:20%;
+    top: 32%;
+    border: 10px solid #fff;
+}
+.swiper-slide.eight .center .img3{
+    width: 50%;
+    height: 25%;
     position: absolute;
     right: 10%;
-    top: 50%;
+    top:64%;
     border: 10px solid #fff;
 }
 /*第八屏结束*/
@@ -1122,19 +1156,27 @@ body {
     left:0;
 }
 .swiper-slide.nine .center .img1{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height: 25%;
     position: absolute;
-    left: 10%;
+    left:10%;
     top: 0;
     border: 10px solid #fff;
 }
 .swiper-slide.nine .center .img2{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height:25%;
+    position: absolute;
+    left:20%;
+    top: 32%;
+    border: 10px solid #fff;
+}
+.swiper-slide.nine .center .img3{
+    width: 50%;
+    height: 25%;
     position: absolute;
     right: 10%;
-    top: 50%;
+    top:64%;
     border: 10px solid #fff;
 }
 /*第九屏结束*/
