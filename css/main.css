@@ -297,12 +297,12 @@ body {
     z-index: 2;
 }
 .swiper-slide.two .center .img2{
-    width: 85%;
-    height: 80%;
+    width: 60%;
+    /* height: 100%; */
     position: absolute;
-    top: 8%;
-    left: 8%;
-
+    top: -7%;
+    left: 20%;
+    transform: rotate(-90deg);
 }
 .swiper-slide.two .bottom{
     width: 100%;
