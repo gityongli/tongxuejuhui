@@ -382,22 +382,22 @@
           <div class="center">
           	 <form action="#" method="post">
                     <p align="center">
-                        <input type="text"  id="name" placeholder="姓名*"
-                               pattern="[a-zA-Z]\w{10,16}" required class="name ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="4s">
+                        <input type="text"  id="name" placeholder="姓名*最少3位数"
+                               pattern="[a-zA-Z]\w{4,10}" required class="name ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="4s">
                     </p>
                     <p align="center">
                         <input type="tel" id="phone" placeholder="电话*"
                                pattern="^(15[0|1|2|3|5|6|7|8|9])\d{8}$" required class="phone ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="4.5s">
                     </p>
                     <p align="center">
-                        <input type="email" id="email" placeholder="微信*"
-                               pattern="/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])/" required class="email ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="5s">
+                        <input type="email" id="email" onclick="checkEmail()" placeholder="邮箱*"
+                               required class="email ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="5s">
                     </p>
                     <p align="center">
                         <input type="text" id="renshu" placeholder="参加人数*" required class="renshu ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="5.5s">
                     </p>
                     <p align="center">
-                        <input type="password" id="pwd" placeholder="密码*"
+                        <input type="password" id="pwd" placeholder="密码*字母6-16位数"
                                pattern="^[a-zA-Z]\w{5,17}$" id="password" required class="pwd ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="6s">
                     </p>
                     <p align="center">
@@ -429,6 +429,17 @@
   <script src="js/swiper.min.js"></script>
   <script src="js/swiper.animate1.0.2.min.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+      function checkEmail() {
+          var email = document.getElementById("email").value;
+          var a = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+          if (!a.test(email)) {
+              document.getElementById("emailSpan").innerHTML = "不符合规范"
+          } else {
+              document.getElementById("emailSpan").innerHTML = "正确"
+          }
+      }
+  </script>
   <!-- Initialize Swiper -->
 </body>
 </html>
